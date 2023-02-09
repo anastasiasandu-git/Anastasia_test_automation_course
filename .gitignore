@@ -3,6 +3,7 @@
 
 # Log file
 *.log
+*.txt
 
 # BlueJ files
 *.ctxt
@@ -24,4 +25,6 @@ hs_err_pid*
 
 # this line excluded .idea configs folder
 .idea
+
+
 
