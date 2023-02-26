@@ -1,9 +1,11 @@
 public class ContBancar {
-    String numarCont = "100";
-    String sold = "sold";
+    private String numarCont = "100";
+    private String sold = "sold";
 
+    public String getNumarCont() {
+        return numarCont;
     }
-    public Integer getnumarCont() { return numarCont; }
+}
 
     public void setNumarCont(Integer numarCont) {
     if ( numarCont < 100 )
@@ -11,3 +13,5 @@ public class ContBancar {
         throw new IllegalArgumentExceprion("Numar Cont trebuie sa fie doar pozitiv ")
         this.numarCont = numarCont;
     }
+
+}
