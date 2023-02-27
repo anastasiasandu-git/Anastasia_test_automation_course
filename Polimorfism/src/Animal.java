@@ -1,4 +1,5 @@
 public class Animal {
+
     String metodaEmiteSunet;
 
     Animal(){
