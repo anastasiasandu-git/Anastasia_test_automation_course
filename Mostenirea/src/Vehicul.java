@@ -2,6 +2,9 @@ public class Vehicul {
 
     String culoare;
     String nrRoti;
+    String afiseazaDetaliiVehicul;
+
+    public Vehicul() {}
 
     public String getCuloare() {
         return culoare;
@@ -11,6 +14,6 @@ public class Vehicul {
     }
 
     public void setCuloare(String culoare) {
-        System.out.println("afiseazaDetaliiVehicul"+culoare)
+        System.out.println("afiseazaDetaliiVehicul" + culoare);
     }
 }
