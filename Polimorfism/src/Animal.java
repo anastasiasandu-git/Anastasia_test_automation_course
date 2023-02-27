@@ -2,6 +2,7 @@ public class Animal {
 
     String metodaEmiteSunet;
 
+
     Animal(){
         System.out.println("fara parametri");
 

@@ -1,7 +1,8 @@
 public class Triunghi extends FormaGeometrica{
 
-    @override
-    public void FormaGeometrica() {
+    @Override
+    public void calculAria() {
 
     }
+
 }

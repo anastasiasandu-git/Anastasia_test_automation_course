@@ -1,8 +1,7 @@
 public class Patrat extends FormaGeometrica{
 
-    @override
-    public void FormaGeometrica() {
+    @Override
+    public void calculAria() {
 
     }
-
 }
